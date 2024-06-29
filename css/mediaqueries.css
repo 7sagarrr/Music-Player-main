@@ -1,0 +1,218 @@
+@media screen and (max-width: 1320px){
+    /* left------------------------------- */
+    .left{
+        position: absolute;
+        left: -100%;
+        z-index: 1;
+        background-color: black;
+        margin: 14px 0;
+    }
+    .library{
+        height: auto;
+    }
+    .song-list{
+        height: 64vh;
+    }
+    .song-list ul :hover {
+        background-color: initial;
+      }
+
+    .right{
+        width: 100vw;
+    }
+    .playbar{
+        min-width: 99vw;
+        min-height: 13vh;
+    }
+    .seekbar{
+        min-width: 95.5vw;
+    }
+    .img{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        height: 2.9rem;
+    }
+
+}
+
+@media screen and (max-width: 1150px){
+    .left{
+        width: 40vw;
+        /* height: 97.5vh; */
+    }
+    .playbar{
+        min-height: 7.5vh;
+    }
+    .library{
+        height: 82vh;
+    }
+    .song-text{
+        font-size: 1.1rem;
+    }
+    .playNow span{
+        font-size: 0.8rem;
+    }
+    .info{
+        width: 17vw;
+    }
+    .card{
+        width: 20vw;
+    }
+    .song-info {
+        width: 15vw;
+    }
+    
+}
+@media screen and (max-width: 900px){
+    .left{
+        width: 60vw;
+        /* height: 97vh; */
+    }
+    .playbar{
+        min-height: 9.5vh;
+    }
+    .song-text{
+        font-size: 1.2rem;
+    }
+    .playNow span{
+        font-size: 0.95rem;
+    }
+    .info{
+        width: 20vw;
+    }
+    .card{
+        width: 25vw;
+    }
+    .playbar{
+        min-width: 98vw;
+    }
+    .seekbar{
+        min-width: 93vw;
+    }
+    .song-info{
+        font-size: 0.85rem;
+        width: 18vw;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .left{
+        width: 100vw;
+        /* height: 87vh; */
+    }
+    .button{
+        display: none;
+    }
+    .kaizen-right{
+        display: block;
+    }
+    .info{
+        width: 35vw;
+    }
+    .song-text{
+        font-size: 1.1rem;
+    }
+    .playNow span{
+        font-size: 0.8rem;
+    }
+    .card{
+        min-width: 36vw;
+    }
+    .card p{
+        font-size: 0.99rem;
+    }
+    .playbar{
+        height: 22vh;
+        min-width: 96vw;
+    }
+    .seekbar{
+        min-width: 86vw;
+    }
+    .playbar img{
+        height: 1.3rem;
+    }
+    .aboveBar{
+        align-items: center;
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .song-info,.song-time{
+        width: auto;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 450px){
+    .card p{
+        font-size: 0.7rem
+    }
+    .card{
+        width: 80vw;
+    }
+    .playbar{
+        height: 22vh;
+        min-width: 96vw;
+    }
+    .seekbar{
+        min-width: 86vw;
+    }
+    .playbar img{
+        height: 1.3rem;
+    }
+    .aboveBar{
+        align-items: center;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .song-info,.song-time{
+        width: auto;
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .playbar{
+        height: 19.5vh;
+        min-width: 96vw;
+        bottom: 50px;
+
+    }
+    .seekbar{
+        min-width: 86vw;
+    }
+    .playbar img{
+        height: 1.1rem;
+    }
+    .aboveBar{
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .song-info,.song-time{
+        width: auto;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 375px){
+  
+    .playbar{
+        min-height: 24vh;
+        min-width: 96vw;
+    }
+    .seekbar{
+        min-width: 86vw;
+    }
+    .playbar img{
+        height: 1.1rem;
+    }
+    .aboveBar{
+        align-items: center;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+    .song-info,.song-time{
+        width: auto;
+        font-size: 1rem;
+    }
+}
